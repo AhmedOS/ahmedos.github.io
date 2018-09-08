@@ -1,5 +1,6 @@
 .parent {
     position: relative;
+    height: 500px;
 }
 
 .center {
