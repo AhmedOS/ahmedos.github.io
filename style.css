@@ -1,6 +1,11 @@
 @font-face { font-family: Raleway; src: url('resources/fonts/Raleway-ExtraLight.ttf'); } 
 
+body {
+    background-color: black;
+}
+
 h1 {
+    text-align: center
     font-family: Raleway;
     color: white;
     font-size: 300%;
