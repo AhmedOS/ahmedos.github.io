@@ -1,5 +1,9 @@
 @font-face { font-family: Raleway; src: url('resources/fonts/Raleway-ExtraLight.ttf'); } 
 
+h1 {
+    font-family: Raleway;
+}
+
 .parent {
     position: relative;
     height: 500px;
