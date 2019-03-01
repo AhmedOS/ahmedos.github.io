@@ -13,12 +13,31 @@ h1 {
     font-size: 400%;
 }
 
+td {
+    text-align: center;
+    font-family: Raleway;
+    font-weight: lighter;
+    letter-spacing: 5px;
+    color: white;
+    font-size: 100%;
+}
+
 .parent {
     position: relative;
     height: 500px;
 }
 
 .center {
+    position: absolute;
+    margin: auto;
+    top: 1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.image-center {
+    opacity: 0.25;
     position: absolute;
     margin: auto;
     top: 0;
