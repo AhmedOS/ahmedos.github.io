@@ -1,0 +1,58 @@
+@font-face { font-family: Raleway; src: url('resources/fonts/Raleway-ExtraLight.ttf'); } 
+
+body {
+    background-color: black;
+    margin-left: 100px;
+    margin-right: 400px;
+}
+
+h1 {
+    font-family: Raleway;
+    font-weight: lighter;
+    letter-spacing: 15px;
+    color: white;
+    font-size: 400%;
+}
+
+h2 {
+    font-family: Raleway;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    color: white;
+    font-size: 200%;
+    margin-left: 50px;
+}
+
+h3 {
+    font-family: Raleway;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: white;
+    font-size: 100%;
+    margin-left: 100px;
+    line-height: 2;
+}
+
+.parent {
+    position: relative;
+    height: 500px;
+}
+
+.center {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.image-center {
+    opacity: 0.3;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
