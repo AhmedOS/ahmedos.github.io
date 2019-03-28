@@ -1,4 +1,4 @@
-@font-face { font-family: Raleway; src: url('resources/fonts/Raleway-ExtraLight.ttf'); } 
+@font-face { font-family: Raleway; src: url('../resources/fonts/Raleway-ExtraLight.ttf'); } 
 
 html {
     background: url("../resources/images/outer-space.jpg") no-repeat center center fixed; 
