@@ -1,7 +1,14 @@
 @font-face { font-family: Raleway; src: url('resources/fonts/Raleway-ExtraLight.ttf'); } 
 
+html {
+    background: url("../resources/images/outer-space.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 body {
-    background-color: black;
     margin-left: 10%;
     margin-right: 30%;
 }
@@ -39,16 +46,6 @@ h3 {
 }
 
 .center {
-    position: absolute;
-    margin: auto;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
-
-.image-center {
-    opacity: 0.3;
     position: absolute;
     margin: auto;
     top: 0;
