@@ -1,4 +1,4 @@
-@font-face { font-family: Raleway; src: url('resources/fonts/Raleway-ExtraLight.ttf'); } 
+@font-face { font-family: Raleway; src: url('../resources/fonts/Raleway-ExtraLight.ttf'); } 
 
 body {
     background-color: black;
